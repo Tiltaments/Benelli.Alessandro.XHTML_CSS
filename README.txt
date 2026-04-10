@@ -1,7 +1,7 @@
 PROGETTO: Sito Web "Palestra 648"
 CORSO: Sviluppo Web - Homework 1 (XHTML/CSS)
 
-AUTORI:
+AUTORE:
 - Alessandro Benelli (1983399)
 
 REPOSITORY GITHUB:
