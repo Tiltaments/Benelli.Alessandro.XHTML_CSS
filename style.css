@@ -1,0 +1,113 @@
+/* style.css */
+
+/* Resettiamo i margini base del browser */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* MENU LATERALE FISSO */
+#sidebar {
+    position: fixed; /* Rimane fisso quando si scorre la pagina */
+    top: 0;
+    left: 0;
+    width: 200px; /* Larghezza del menu */
+    height: 100%; /* Prende tutta l'altezza dello schermo */
+    background-color: #2c3e50; /* Colore di sfondo scuro */
+    color: white;
+    padding-top: 20px;
+}
+
+#sidebar h2 {
+    text-align: center;
+}
+
+#sidebar ul {
+    list-style-type: none; /* Toglie i pallini dalla lista */
+    padding: 0;
+}
+
+#sidebar ul li a {
+    display: block;
+    color: white;
+    text-decoration: none; /* Toglie la sottolineatura ai link */
+    padding: 15px 20px;
+    border-bottom: 1px solid #34495e;
+}
+
+#sidebar ul li a:hover {
+    background-color: #1abc9c; /* Cambia colore quando passi col mouse */
+}
+
+/* AREA CENTRALE */
+#content {
+    margin-left: 200px; /* Sposta il contenuto a destra per fare spazio al menu */
+    padding: 20px;
+    margin-bottom: 80px; /* Spazio in basso per non coprire i contenuti con il footer */
+}
+
+/* IMMAGINE PRINCIPALE */
+/* Regole per l'immagine dentro il contenitore principale */
+.main-image img {
+    max-width: 100%; /* L'immagine non supererà mai la larghezza massima del suo contenitore */
+    max-height: 300px; /* Limita l'altezza per non occupare troppo spazio in verticale */
+    height: auto; /* Mantiene le proporzioni corrette della foto per non deformarla */
+    display: block; /* Rimuove dei piccoli spazi vuoti che il browser mette di default sotto le immagini */
+    margin: 0 auto; /* Centra l'immagine nel caso in cui sia più stretta dello schermo */
+}
+
+/* FOOTER (Piè di pagina in basso) */
+#footer {
+    position: fixed; /* Anche questo fisso come nel tuo disegno */
+    bottom: 0;
+    left: 200px; /* Parte dopo il menu laterale */
+    width: calc(100% - 200px); /* Occupa lo spazio rimanente */
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+
+
+/* --- STILI PER LA PAGINA TRAINER --- */
+
+/* Contenitore per ogni singolo trainer */
+.trainer-box {
+    margin-bottom: 30px; /* Spazio tra un trainer e l'altro */
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc; /* Una riga grigia per separare i profili */
+    overflow: auto; /* TRUCCO IMPORTANTE: serve per contenere le immagini "fluttuanti" */
+}
+
+/* Stile per le foto dei trainer */
+.trainer-photo {
+    float: left; /* Sposta l'immagine a sinistra e fa scorrere il testo a destra */
+    width: 150px; /* Larghezza fissa uguale per tutti i trainer */
+    height: auto; /* Mantiene le proporzioni della foto */
+    margin-right: 20px; /* Crea uno spazio tra la foto e il testo */
+    margin-bottom: 10px; /* Crea spazio sotto la foto se il testo è corto */
+}
+
+
+/* --- STILI PER LA PAGINA SERVIZI --- */
+
+/* Contenitore per ogni singolo servizio */
+.service-box {
+    margin-bottom: 30px; /* Spazio tra un servizio e l'altro */
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc; /* Una riga grigia per separare i servizi */
+    overflow: auto; /* TRUCCO IMPORTANTE: serve per contenere le immagini "fluttuanti" */
+}
+
+/* Stile per le immagini dei servizi */
+.service-photo {
+    float: left; /* Sposta l'immagine a sinistra e fa scorrere il testo a destra */
+    width: 150px; /* Larghezza fissa uguale per tutti i servizi */
+    height: auto; /* Mantiene le proporzioni della foto */
+    margin-right: 20px; /* Crea uno spazio tra la foto e il testo */
+    margin-bottom: 10px; /* Crea spazio sotto la foto se il testo è corto */
+}
