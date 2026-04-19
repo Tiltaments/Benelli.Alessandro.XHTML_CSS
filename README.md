@@ -19,4 +19,4 @@ TECNICHE PRINCIPALI UTILIZZATE:
 4. Float: La proprietà CSS "float" è stata utilizzata nella pagina Trainer per affiancare le immagini dei professionisti al testo descrittivo.
 
 
-(vedi classroom)
+:briefcase: (vedi md, issue e classroom)
