@@ -15,3 +15,5 @@ TECNICHE PRINCIPALI UTILIZZATE:
 2. Posizionamento Fisso (Fixed Positioning): Utilizzato per bloccare il menu di navigazione laterale e il footer in basso, garantendo che siano sempre visibili durante lo scorrimento.
 3. Layout senza tabelle: La struttura è gestita interamente tramite <div> e regole CSS (margini e padding).
 4. Float: La proprietà CSS "float" è stata utilizzata nella pagina Trainer per affiancare le immagini dei professionisti al testo descrittivo.
+
+:briefcase: (vedi md, issue e classroom)
